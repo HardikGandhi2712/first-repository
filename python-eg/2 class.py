@@ -17,8 +17,8 @@ print(int(("80"))+int("20"))
 
 print(10+int("21"))
 
-a=input(str("Write first name"))
-b=input(str("Write last name"))
+a=input("Write first name")
+b=input("Write last name")
 print(a,b)
 
 x=10
