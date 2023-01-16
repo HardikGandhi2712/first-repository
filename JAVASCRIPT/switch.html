@@ -1,0 +1,40 @@
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var shape=prompt("enter shape");
+const pi=22/7;
+switch(shape)
+{
+case "circle":
+var r=parseInt(prompt("enter the value of radius"));
+var area=(pi*r*r);
+document.write(area);
+break;
+
+case "square":
+var s=parseInt(prompt("enter the value of side"));
+var area=(s*s);
+document.write(area);
+break;
+
+case "rectangle":
+var l=parseInt(prompt("enter the value of length"))
+var b=parseInt(prompt("enter the value of breadth"));
+var area=(l*b);
+document.write(area);
+break;
+
+case "cylinder":
+var h=parseInt(prompt("enter the value of height"));
+var r=parseInt(prompt("enter the value of radius"));
+var area=(pi*r*r*h);
+document.write(area);
+break;
+}
+
+
+</script>
+</body>
+</html>

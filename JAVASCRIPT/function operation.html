@@ -1,0 +1,38 @@
+<html>
+<body>
+<script type="text/javascript">
+	num1=parseInt(prompt("enter 1 number"))
+	num2=parseInt(prompt("enter 2 number"))
+	operation=prompt("enter the operator")
+	
+	function operator(num1,num2,operation)
+	{
+	switch(operation)
+	{
+	case "+":
+	document.write(num1+num2)
+	break;
+
+	case "-":
+	document.write(num1-num2)
+	break;
+	
+	case "*":
+	document.write(num1*num2)
+	break;
+
+	case "/":
+	document.write(num1/num2)
+	break;
+
+	default:
+	document.write("incorrect input")
+	
+	}
+	}
+	
+	
+</script>
+	<input type="button" onclick=operator(num1,num2,operation); value="print message">
+</body>
+</html>

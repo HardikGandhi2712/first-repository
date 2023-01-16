@@ -1,0 +1,112 @@
+<html>
+<body>
+<script type="text/javascript">
+
+//Qs1
+
+var num1=parseInt(prompt("enter a number"));
+var result=num1/2;
+alert("Your result is "+result);
+
+//Qs2
+
+var num2=parseInt(prompt("enter 2 number"));
+switch(num2)
+{
+case 7:
+document.write("July");
+break;
+
+case 8:
+document.write("August");
+break;
+
+case 9:
+document.write("september");
+break;
+
+case 10:
+document.write("october");
+break;
+
+case 11:
+document.write("november");
+break;
+
+case 12:
+document.write("december");
+break;
+
+default:
+document.write("Enter valid number");
+break;
+}
+
+document.write("<br>");
+
+//Qs 3
+for (var i = 1; i <= 5; i++)
+ {
+  for (j = 1; j <= i; j++) {
+    document.write(j+" ");
+  }
+  document.write("<br>");
+}
+
+//Qs4
+num3=parseInt(prompt("enter 3 number"));
+num4=parseInt(prompt("enter 4 number"));
+function sum(num3,num4)
+{
+add=num3+num4;
+document.write(add)
+}
+
+function multiply(num3,num4)
+{
+product=num3*num4;
+document.write(product)
+}
+
+document.write("<br>");
+
+//Qs5
+
+var ar1=[]
+var ar2=[]
+var num5=1;
+
+while(num5!=0)
+{
+
+ar1.push(num5);
+
+if (num5%2==0)
+{
+ar2.push(num5)
+}
+
+num5=parseInt(prompt("enter 5 number"));
+}
+
+document.write(ar1);
+document.write(ar2);
+
+
+//Qs6
+var names=["Riya","Hitesh","Amruta","Kanika","Manas","Preeti"]
+desc=names.sort();
+desc.reverse();
+document.write(desc);
+
+
+</script>
+
+<input type="button"  onclick=sum(num3,num4); value="+">
+<input type="button"  onclick=multiply(num3,num4); value="*">
+
+</body>
+</html>
+</script>
+</body>
+</html>
